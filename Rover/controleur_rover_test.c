@@ -101,7 +101,7 @@ int main ( void )
 
    // Run all tests using the automated interface
    CU_automated_run_tests();
-   CU_list_tests_to_file();
+   //CU_list_tests_to_file();
 
    // Run all tests using the console interface
    //CU_console_run_tests();
