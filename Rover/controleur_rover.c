@@ -17,6 +17,7 @@
 int batterie = 100;
 bool retour_point_de_depart=false;
 float pas_echantillonage;
+int var=0;
 
 OutputControler controleur(Capteurs capteurs,bool button_emergency, int batterie){
     float output_speed_motor[6];
