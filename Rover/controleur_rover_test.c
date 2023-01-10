@@ -6,7 +6,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 
-#include "CUnit/Automated.h"
+#include "CUnit/Headers/Automated.h"
 //#include "CUnit/Console.h"
 
 #include "controleur_rover.h"
