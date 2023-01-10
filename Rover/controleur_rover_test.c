@@ -40,7 +40,7 @@ void controleur_test_obstacle(void) {
     };
     OutputControler output = controleur(capteurs, button_emergency,100);
     for (int i=0; i<6; i++) {
-      CU_ASSERT(output.speed_motor[i] < 0);
+      CU_ASSERT(false);
     }
 }
 
